@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 def get_info():
     print("hello")
     name = name_var.get()
@@ -10,7 +9,6 @@ def get_info():
     age_var.set(25)
     address_text.delete("1.0", tk.END)
     name_entry.focus()
-
 
 # declaration of window
 win = tk.Tk()
