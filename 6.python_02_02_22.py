@@ -4,7 +4,7 @@ from tkinter import messagebox
 
 
 def set_month():
-    print("Month selected is "+month_var.get())
+    messagebox.showinfo(title="Close Window", message="Month selected is "+month_var.get())
 
 
 win = tk.Tk()
