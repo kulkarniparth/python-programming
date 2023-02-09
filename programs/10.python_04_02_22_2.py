@@ -4,7 +4,7 @@ from tkinter import scrolledtext
 
 
 def get_text():
-    messagebox.showinfo("Scrolled Text Content", )
+    messagebox.showinfo("Scrolled Text Content", st.get(1.0, tk.END))
 
 
 win = tk.Tk()
