@@ -1,13 +1,11 @@
-import time
 import tkinter as tk
-from tkinter import messagebox, ttk
-
+from tkinter import ttk
 
 win = tk.Tk()
 win.geometry("400x300")
 win.title("Progress Bar")
 
-pb = ttk.Progressbar(win, orient=tk.HORIZONTAL,length=200, value=0, mode="indeterminate")
+pb = ttk.Progressbar(win, orient=tk.HORIZONTAL, length=200, value=0, mode="indeterminate")
 
 start_button = tk.Button(win, text="Start", command=pb.start)
 stop_button = tk.Button(win, text="stop", command=pb.stop)
